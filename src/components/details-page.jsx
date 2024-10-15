@@ -7,6 +7,7 @@ const DetailsPage = () => {
       </div>
       {/* Right Side */}
       <div>
+        <h1 className="text-3xl font-bold uppercase">Hello world!</h1>
         <h1 className="text-2xl bg-slate">Martin - Easy Chair</h1>
         <div>
           <h3>Description</h3>

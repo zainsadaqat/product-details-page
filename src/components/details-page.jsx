@@ -1,14 +1,25 @@
+
+
+
 const DetailsPage = () => {
   return (
-    <section>
+    <section className= "ml-5" >
       {/* Left Side */}
       <div>
-        <img src="" alt="Product Image" className="product-image" />
+ 
+      
       </div>
       {/* Right Side */}
-      <div>
-        <h1 className="text-3xl font-bold uppercase">Hello world!</h1>
+      <div className>
+      <h1 className="text-3xl font-bold uppercase">Hello world!</h1>
+      <img  src={'/src/assets/chair-image.webp'} />
+      
+        
+        
+        
+
         <h1 className="text-2xl bg-slate">Martin - Easy Chair</h1>
+       
         <div>
           <h3>Description</h3>
           <p>
@@ -48,9 +59,9 @@ const DetailsPage = () => {
           </select>
         </div>
 
-        <div>
+        <div >
           <label>Quantity</label>
-          <select>
+          <select >
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -62,7 +73,7 @@ const DetailsPage = () => {
           <p>$499.99</p>
         </div>
 
-        <button type="button">Add to cart</button>
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 text-sm p-5 rounded " >Add to cart</button>
       </div>
     </section>
   );

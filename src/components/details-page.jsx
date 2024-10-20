@@ -3,22 +3,17 @@
 
 const DetailsPage = () => {
   return (
-    <section className= "ml-5" >
+    <section className="mx-auto container" >
+
+      <div className="flex flex-wrap lg:flex-nowrap">
       {/* Left Side */}
-      <div>
+      <div  className="w-full lg:w-1/2 p-2">
  
-      
+      <img  className="w-full h-full object-cover"      src={'/src/assets/chair-image.webp'} />
       </div>
       {/* Right Side */}
-      <div className>
-      <h1 className="text-3xl font-bold uppercase">Hello world!</h1>
-      <img  src={'/src/assets/chair-image.webp'} />
-      
-        
-        
-        
-
-        <h1 className="text-2xl bg-slate">Martin - Easy Chair</h1>
+      <div className="w-full lg:w-1/2 p-2">
+      <h1 className="text-2xl bg-slate">Martin - Easy Chair</h1>
        
         <div>
           <h3>Description</h3>
@@ -73,7 +68,8 @@ const DetailsPage = () => {
           <p>$499.99</p>
         </div>
 
-        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 text-sm p-5 rounded " >Add to cart</button>
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 text-sm p-5 rounded w-full lg:w-auto">Add to cart</button>
+      </div>
       </div>
     </section>
   );

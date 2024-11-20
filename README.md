@@ -1,6 +1,6 @@
 # Project Details Page    
 
-## Authors    
+## Authors     
 - Mian Raheel      
 - Zain Sadaqat      
 

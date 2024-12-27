@@ -1,4 +1,4 @@
-# Project Details Page         
+# Project Details Page          
    
 ## Authors     
 - Mian Raheel           

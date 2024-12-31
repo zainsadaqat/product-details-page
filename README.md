@@ -1,7 +1,7 @@
 # Project Details Page             
        
 ## Authors      
-- Mian Raheel              
+- Mian Raheel               
 - Zain Sadaqat             
   
 ## Set up project       
